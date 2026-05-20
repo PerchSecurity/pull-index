@@ -40,3 +40,12 @@ This command:
 
 - `--download-dir` to choose a different download directory
 - `--output-file` to choose the output JSON file path
+
+---
+
+Use `cold-qa01` as an example: https://us-east-1.console.aws.amazwinlogbeat-unknown-2023.06.05-000001on.com/s3/buckets/cold-qa01?region=us-east-1&prefix=2022-Q1/&showversions=false
+
+```
+uv run main.py list s3://cold-qa01/2022-Q1/
+uv run main.py download s3://cold-qa01/2022-Q1/ 'webroot-unknown-2023.06.14-000001'
+```
