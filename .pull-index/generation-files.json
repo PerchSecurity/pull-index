@@ -1,0 +1,9 @@
+{
+  "entries": {
+    "s3://cold-qa01/2022-Q1/": [
+      "2022-Q1/index.latest",
+      "2022-Q1/index-21803"
+    ]
+  },
+  "version": 1
+}
